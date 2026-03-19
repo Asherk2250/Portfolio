@@ -6,7 +6,7 @@ main_bp = Blueprint('main', __name__)
 
 @main_bp.route('/')
 def home():
-   return "<h1>Welcome to the API</h1>"
+   return "<h1>OK! LET'S GO!</h1>"
 
 @main_bp.route('/add_user',)
 def add_user():
