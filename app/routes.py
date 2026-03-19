@@ -6,7 +6,7 @@ main_bp = Blueprint('main', __name__)
 
 @main_bp.route('/')
 def home():
-   return "<h1>OK! LET'S GO!</h1>"
+   return "<h1>i love tiddies!</h1>"
    return "<div> blud <div>"
    return jsonify({'message': 'Welcome to the Flask test app!'})
 
